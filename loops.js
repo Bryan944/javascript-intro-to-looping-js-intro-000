@@ -17,6 +17,7 @@ const testArray = strangeArray.slice(array.length)
 let first = "I am 1 strange loop."
 let rest = `"I am ${i} strange loops."`
 */
+<<<<<<< HEAD
 //let i = 0;
 function forLoop(array){
 
@@ -29,10 +30,25 @@ function forLoop(array){
 
 }
 return array;
+=======
+let i = 0;
+function forLoop(i){
+  if(i === 0) {
+  for (let i = 0; i < 25 ; i++)
+         return 'I am 1 strange loop.';
+       } else {
+         return `'I am ${i} strange loops.'`;
+       }
+       return i;
+>>>>>>> 4505e9b0108eb1092fb1de7f02547714b528d6d3
 }
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4505e9b0108eb1092fb1de7f02547714b528d6d3
 function whileLoop(number){
 while ( number > 0) {
   console.log(number-=1);
